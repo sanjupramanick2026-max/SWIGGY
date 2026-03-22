@@ -1,0 +1,1294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 110vh;
+    min-width: 100%;
+    /* border: 2px solid black; */
+    background-color: #ff5200;
+
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+    position: relative;
+}
+.index_nav_left{
+    height: 10vh;
+    /* width: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index_nav_left img{
+    height: 5vh;
+    
+}
+.index_nav_right{
+    height: 10vh;
+    /* width: 60%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-wrap: nowrap;
+    font-size: 1.2em;
+}
+.index_nav_right a{
+    text-decoration: none;
+    /* font-size: 1.5em; */
+    color: #fff;
+}
+#index_nav_right_left_1  {
+    height: 50px;
+    /* width: 150px; */
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    background-color: #ff5200;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 20;
+}
+#index_nav_right_right_1{
+    padding-left: 10px;
+}
+#index_nav_right_2{
+    height: 50px;
+    /* min-width: 150px; */
+    /* border: 1px solid #fff;   */
+    padding: 5px 20px;
+    font-size: 1.3em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.header_main{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+}
+.header_main_left{
+    height: 500px;
+    
+}
+.header_main_right{
+    height: 500px;
+
+}
+.main_containt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+    /* order: 1; */
+    margin-top: 50px;
+}
+.main_containt_1{
+    width: 60%;
+    text-align: center;
+    margin: 0px auto;
+    padding-left: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 56px;
+    
+}
+.main_container{
+    height: 10vh;
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.main_container_left{
+    height: 10vh;
+    width: 40%;
+    /* border: 2p solid #fff; */
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.main_container_left1_logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container_left1_logo i{
+    font-size: 30px;
+    color: #ff5200;
+}
+.main_container_left2{
+    height: 10vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_container_left2 input{
+    width: 100%;
+    border: none;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+.main_container_left3{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container_right{
+    height: 10vh;   
+    width: 55%;
+    /* border: 2px solid #fff; */
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: space-evenly; */
+
+}
+.main_contaier_right_left{
+    height: 10vh;
+    width: 60%;
+    background-color: none;   
+    margin-left: 8%;
+}
+
+
+.main_contaier_right_left input{
+    width: 100%;
+    height: 10vh;
+    font-size: 1em;
+    border: none;
+}
+.main_contaier_right_right{
+    height: 10vh;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header_down_main_container{
+    height: 45vh;
+    margin-top: 30px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_down_main_container a{
+    height: 45vh;
+    width: 28%;
+    /* border: 1px solid black; */
+}
+.header_down_container1{
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_down_container1 img{
+    height: 40vh;
+    width: 100%;
+}
+.header_down_container2{
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_down_container2 img{
+    height: 40vh;
+    width: 100%;
+}
+.header_down_container3{
+    height: 45vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_down_container3 img{
+    height: 40vh;
+    width: 100%;
+}
+.header_main_left img{
+    max-height: 450px !important;
+    max-width: 250px !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 15vh;
+}
+.header_main_right img{
+    max-height: 450px !important;
+    max-width: 250px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 15vh;
+    margin-right: 0;
+}
+
+/****** header part finish *******/
+.order{
+    height: 70vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20vh;
+}
+.order_our{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_our_right{
+    padding-right: 20px;
+}
+#order_our_right_left i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+#order_our_right_right i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.product{
+    height: 60vh;
+    min-width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+     /* Firefox-ms-overflow-style: none; */
+     background-color: #fff;
+}
+.product1{
+    height: 30vh;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.product1 a{
+    height: 28vh;
+    width: 12vw;
+}
+.dessert{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.dessert img{
+    height: 28vh;
+    width: 12vw;
+}
+.biriyani{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.biriyani img{
+    height: 28vh;
+    width: 12vw;
+}
+.Chisnis{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.Chisnis img{
+    height: 28vh;
+    width: 12vw;
+}
+.Rolls{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.Rolls img{
+    height: 28vh;
+    width: 12vw;
+}
+.cake{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.cake img{
+    height: 28vh;
+    width: 12vw;
+}
+.pizza{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.pizza img{
+    height: 28vh;
+    width: 12vw;
+}
+.north_indian{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.north_indian img{
+    height: 28vh;
+    width: 12vw;
+}
+.south_indian{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.south_indian img{
+    height: 28vh;
+    width: 12vw;
+}
+.burger{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.burger img{
+    height: 28vh;
+    width: 12vw;
+}
+.shawarma{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.shawarma img{
+    height: 28vh;
+    width: 12vw;
+}
+
+
+
+/******* product1 ******/
+.product2{
+    height: 30vh;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.product2 a{
+    height: 28vh;
+    width: 12vw;
+}
+.Ice_Cream{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.Ice_Cream img{
+    height: 28vh;
+    width: 12vw;
+}
+.momo{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.momo img{
+    height: 28vh;
+    width: 12vw;
+}
+.pasta{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.pasta img{
+    height: 28vh;
+    width: 12vw;
+}
+.paratha{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.paratha img{
+    height: 28vh;
+    width: 12vw;
+}
+.dosa{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.dosa img{
+    height: 28vh;
+    width: 12vw;
+}
+.salad{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.salad img{
+    height: 28vh;
+    width: 12vw;
+}
+.kachdi{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.kachdi img{
+    height: 28vh;
+    width: 12vw;
+}
+.vada{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.vada img{
+    height: 28vh;
+    width: 12vw;
+}
+.idli{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.idli img{
+    height: 28vh;
+    width: 12vw;
+}
+.rasgulla{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.rasgulla img{
+    height: 28vh;
+    width: 12vw;
+}
+
+/****** project finish *******/
+
+
+.shop{
+    height: 40vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20vh;
+}
+.shop_groceries{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop_groceries_right{
+    padding-right: 20px;
+}
+#shop_groceries_right_left i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+#shop_groceries_right_right i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.instamart{
+    height: 30vh;
+    min-width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+     /* Firefox-ms-overflow-style: none; */
+     background-color: #fff;
+}
+.instamart_1{
+    height: 30vh;
+    /* border: 1px solid black; */
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+}
+.instamart_1 a{
+    height: 30vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fresh_vegetables{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+    
+}
+.fresh_vegetables img{
+    height: 28vh;
+    width: 12vw;
+}
+.fresh_fruits{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.fresh_fruits img{
+    height: 28vh;
+    width: 12vw;
+}
+.dairy_bread_and_eggs{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.dairy_bread_and_eggs img{
+    height: 28vh;
+    width: 12vw;
+}
+.rice_atta_and_dals{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.rice_atta_and_dals img{
+    height: 28vh;
+    width: 12vw;
+}
+.masalas_and_dry_fruits{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.masalas_and_dry_fruits img{
+    height: 28vh;
+    width: 12vw;
+}
+.oils_and_ghee{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.oils_and_ghee img{
+    height: 28vh;
+    width: 12vw;
+}
+.munchies{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.munchies img{
+    height: 28vh;
+    width: 12vw;
+}
+.sweet_tooth{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.sweet_tooth img{
+    height: 28vh;
+    width: 12vw;
+}
+.cold_drinks_and_juices{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.cold_drinks_and_juices img{
+    height: 28vh;
+    width: 12vw;
+}
+.biscuits_and_cakes{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.biscuits_and_cakes img{
+    height: 28vh;
+    width: 12vw;
+}
+.instant_and_frozen_food{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.instant_and_frozen_food img{
+    height: 28vh;
+    width: 12vw;
+}
+.meat_and_seafood{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.meat_and_seafood img{
+    height: 28vh;
+    width: 12vw;
+}
+.cereals_and_breakfast{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.cereals_and_breakfast img{
+    height: 28vh;
+    width: 12vw;
+}
+.sauces_and_spreads{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.sauces_and_spreads img{
+    height: 28vh;
+    width: 12vw;
+}
+.tea_coffee_and_more{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.tea_coffee_and_more img{
+    height: 28vh;
+    width: 12vw;
+}
+.cleaning_essentials{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.cleaning_essentials img{
+    height: 28vh;
+    width: 12vw;
+}
+.pharma_and_hygiene{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.pharma_and_hygiene img{
+    height: 28vh;
+    width: 12vw;
+}
+.bath_body_and_hair{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.bath_body_and_hair img{
+    height: 28vh;
+    width: 12vw;
+}
+.paan_corner{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.paan_corner img{
+    height: 28vh;
+    width: 12vw;
+}
+.home_and_kitchen{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.home_and_kitchen img{
+    height: 28vh;
+    width: 12vw;
+}
+.office_and_electricals{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.office_and_electricals img{
+    height: 28vh;
+    width: 12vw;
+}
+.baby_care{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.baby_care img{
+    height: 28vh;
+    width: 12vw;
+}
+.pet_supplies{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.pet_supplies img{
+    height: 28vh;
+    width: 12vw;
+}
+.beauty_and_grooming{
+    height: 28vh;
+    width: 12vw;
+    /* border: 1px solid black; */
+}
+.beauty_and_grooming img{
+    height: 28vh;
+    width: 12vw;
+}
+
+/****** discover start *********/
+
+
+.discover{
+    height: 70vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20vh;
+}
+.restaurants{
+    height: 60vh;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid darkblue; */
+}
+.discover_best{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discover_best_right{
+    padding-right: 20px;
+}
+#discover_best_right_left i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+#discover_best_right_right i{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+}
+.dineout{
+    height: 60vh;
+    width: 100%;
+    /* overflow: scroll; */
+    /* scrollbar-width: none; */
+     /* Firefox-ms-overflow-style: none; */
+     background-color: #fff;
+}
+.dineout_1{
+    height: 55vh;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+.dineout_1 a{
+    height: 55vh;
+    width: 20vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.te_amo_cafe_lounge{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.te_amo_cafe_lounge img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cafe_autoholic{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.cafe_autoholic img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.chicken_mirch_masala{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.chicken_mirch_masala img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.signature_stop_cafe{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.signature_stop_cafe img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.wokao{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.wokao img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.usha_dawn_of_bengali{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.usha_dawn_of_bengali img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.ali_one_restaurant{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.ali_one_restaurant img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.the_sugarr_and_spice{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.the_sugarr_and_spice img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.burgerizzer{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.burgerizzer img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.nyc_times_square{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.nyc_times_square img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.tall_tales{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.tall_tales img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.hola{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.hola img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.lenin_crusises{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.lenin_crusises img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.panvham_er_adday{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.panvham_er_adday img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.vedanta{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.vedanta img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.zahtar{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.zahtar img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.spice_it_idis_hote{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.spice_it_idis_hote img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.afterhours_pub{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.afterhours_pub img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.rendezbous_hotel_monotel{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.rendezbous_hotel_monotel img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.vertex_fairfieid_by_marriott{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.vertex_fairfieid_by_marriott img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.fiy_kouzina{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.fiy_kouzina img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.la_poinoz_pizza{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.la_poinoz_pizza img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.masala_wok_bar_kitchen{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.masala_wok_bar_kitchen img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.pa_pa_ya{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.pa_pa_ya img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.tasty_treat{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.tasty_treat img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.momo_raja{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.momo_raja img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.craft_coffee_experience{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.craft_coffee_experience img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.the_buffelt{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.the_buffelt img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.aami_bangali{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.aami_bangali img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+.pawan_putra{
+    height: 50vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.pawan_putra img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 20px;
+}
+/************discover **************/
+
+.App_download_banner{
+    height: 50vh;
+    width: 100%;
+}
+.App_download_banner img{
+    height: 50vh;
+    width: 100%;
+}
+/******* Cities with food delivery *******/
+.food_delivery{
+    height: 50vh;
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.food_delivery_top{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15vh;
+}
+.food_delivery_buttom{
+    height: 45vh;
+    /* width: 100%; */
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    gap: 20px;
+    font-size: 22px;
+    overflow: scroll;
+    scrollbar-width:auto;
+    /* scrollbar-height:auto; */
+    /* Firefox-ms-overflow-style: none; */
+}
+.food_delivery_buttom_container{
+    width: 35vh;
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food_delivery_buttom a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/****** Cities with grocery delivery ******/
+.grocery_delivery{
+    height: 60vh;
+    width: 75%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.grocery_delivery_top{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15vh;
+}
+.grocery_delivery_buttom{
+    height: 40vh;
+    /* width: 100%; */
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 12px; */
+    gap: 20px;
+    
+    overflow: scroll;
+    scrollbar-width:auto;
+    /* scrollbar-height:auto; */
+    /* Firefox-ms-overflow-style: none; */
+}
+.grocery_delivery_buttom_container{
+    width: 30vh;
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grocery_delivery_buttom a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(246, 244, 241);
+}
+.footer_part{
+    height: 50vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
